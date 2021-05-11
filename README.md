@@ -37,6 +37,7 @@ T_Captcha.show();
 ```
 
 ### Node.js usage
+You can see the validation interface of Tencent Captcha from this [document](https://cloud.tencent.com/document/product/1110/36926) for details.
 ```
 const TencentCaptcha = require('tencent-captcha');
 const captcha = new TencentCaptcha({
