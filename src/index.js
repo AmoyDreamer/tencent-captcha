@@ -11,11 +11,11 @@ class TencentCaptcha {
         this._secretId = options.secretId || '';//tencentcloud API secretId
         this._secretKey = options.secretKey || '';//tencentcloud API secretKey
         this._appId = options.appId || '';//tencentcloud application ID
-        this._appSecretKey = options.appSecretKey || '';//tencentcloud application SecretKey
+        this._appSecretKey = options.appSecretKey || '';//tencentcloud application secretKey
     }
     /**
-     * @param {String} ticket User authentication ticket from client's callback function
-     * @param {String} randstr Random string from client's callback function
+     * @param {String} ticket user authentication ticket from client's callback function
+     * @param {String} randstr random string from client's callback function
      * @param {String} ip user ip
      */
     async validate(ticket, randstr, ip) {
