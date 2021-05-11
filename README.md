@@ -1,5 +1,5 @@
 # tencent-captcha
-A simple library of captcha based on <a href="https://github.com/TencentCloud/tencentcloud-sdk-nodejs/tree/3.0.268" target="_blank">tencentcloud-sdk-nodejs</a>.
+A simple library of captcha based on [tencentcloud-sdk-nodejs](https://github.com/TencentCloud/tencentcloud-sdk-nodejs/tree/3.0.268).
 
 ## Install
 ### Using npm
