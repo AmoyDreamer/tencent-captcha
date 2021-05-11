@@ -24,7 +24,8 @@ var T_Captcha = new TencentCaptcha('your_tencentcloud_application_ID', function(
     if (res && res.ret == 0) {
         //success
         T_Captcha.destroy();
-        //ajax request the relevant verification interface of the server. You can see the following step [Node.js usage] to perform server-side validation.
+        //ajax request the relevant verification interface of the server.
+        //You can see the following step [Node.js usage] to perform server-side validation.
     } else {
         //failure
     }
