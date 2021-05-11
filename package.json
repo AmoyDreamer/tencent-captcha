@@ -1,0 +1,25 @@
+{
+  "name": "tencent-captcha",
+  "version": "1.0.0",
+  "description": "A simple library of captcha based on tencentcloud-sdk-nodejs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmoyDreamer/tencent-captcha.git"
+  },
+  "keywords": [
+    "tencent-captcha"
+  ],
+  "author": "Allen Liu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmoyDreamer/tencent-captcha/issues"
+  },
+  "homepage": "https://github.com/AmoyDreamer/tencent-captcha#readme",
+  "dependencies": {
+    "tencentcloud-sdk-nodejs": "^3.0.268"
+  }
+}

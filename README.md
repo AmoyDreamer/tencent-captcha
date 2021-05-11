@@ -1,5 +1,5 @@
 # tencent-captcha
-A simple library of captcha based on tencentcloud-sdk-nodejs, see the [document](https://cloud.tencent.com/document/product/1110/36926) for details.
+A simple library of captcha based on [tencentcloud-sdk-nodejs](https://github.com/TencentCloud/tencentcloud-sdk-nodejs/tree/3.0.268).
 
 ## Install
 ### Using npm
@@ -25,7 +25,7 @@ var T_Captcha = new TencentCaptcha('your_tencentcloud_application_ID', function(
         //success
         T_Captcha.destroy();
         //ajax request the relevant verification interface of the server.
-        //You can see the following step [Node.js usage] to perform server-side validation.
+        //you can see the following step [Node.js usage] to perform server-side validation.
     } else {
         //failure
     }
@@ -75,7 +75,7 @@ captcha.validate(ticket, randstr, ip)
 - randstr => {String} random string from client's callback function.(required)
 - ip => {String} User ip.(required)
 
-The Return value of this method is a promise, you can use [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) synchronizing code.
+The Return value of this method is a promise, you can use [async-await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function) synchronizing code. You can see data structure returned from the interface of Tencent Captcha by [document](https://cloud.tencent.com/document/product/1110/36926).
 
 ## License
 tencent-captcha is [MIT licensed](https://github.com/AmoyDreamer/tencent-captcha/blob/master/LICENSE).
