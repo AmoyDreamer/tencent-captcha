@@ -11,7 +11,10 @@
     "url": "git+https://github.com/AmoyDreamer/tencent-captcha.git"
   },
   "keywords": [
-    "tencent-captcha"
+    "captcha",
+    "tencent",
+    "captcha API",
+    "tencent captcha"
   ],
   "author": "Allen Liu",
   "license": "MIT",
