@@ -12,7 +12,7 @@ npm install tencent-captcha --save
 ### Browser usage
 You can see the client access CAPTCHA from this [document](https://cloud.tencent.com/document/product/1110/36841) for details.
 
-#### Using TCaptcha JSSDK
+#### Using TencentCaptcha JSSDK
 ```
 <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
 
