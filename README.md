@@ -64,7 +64,7 @@ You can get related secret ID and key from [Tencent Cloud Console](https://conso
 new TencentCaptcha(options);
 - options => tencentcloud-sdk-nodejs'config object.(required)
 
-Options field description
+options field description
 - secretId => {String} tencentcloud API secretId.(required)
 - secretKey => {String} tencentcloud API secretKey.(required)
 - appId => {String} tencentcloud application ID.(required)
