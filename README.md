@@ -15,7 +15,6 @@ You can see the client access CAPTCHA from this [document](https://cloud.tencent
 #### Using TencentCaptcha JSSDK
 ```
 <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
-
 ```
 #### Create instance of TencentCaptcha, include callback function
 ```
